@@ -62,29 +62,5 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
     </PreferenceScreen>
-
-   <!-- Status bar ZEPHYR logo -->
-   <PreferenceCategory
-           android:title="@string/status_bar_logo_category_title">
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-            android:key="status_bar_zephyr_logo"
-            android:title="@string/status_bar_zephyr_logo_title"
-            android:summary="@string/status_bar_zephyr_logo_summary" />
-
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="status_bar_zephyr_logo_color"
-            android:title="@string/status_bar_zephyr_logo_color"
-            android:defaultValue="0xffffffff"
-            android:dependency="status_bar_zephyr_logo" />
-
-       <ListPreference
-            android:key="status_bar_zephyr_logo_style"
-            android:title="@string/status_bar_zephyr_logo_position"
-            android:dialogTitle="@string/status_bar_zephyr_logo_position"
-            android:entries="@array/status_bar_logo_position_entries"
-            android:entryValues="@array/status_bar_logo_position_values"
-            android:dependency="status_bar_zephyr_logo" />
-   </PreferenceCategory>
-
 </PreferenceScreen>
 

@@ -804,15 +804,5 @@
     <string name="task_manager_kill_button_1">Circular</string>
     <string name="task_manager_kill_button_2">Text</string>
     <string name="task_manager_kill_button_3">Classic</string>
-
-    <!-- Statusbar ZEPHYR logo -->
-    <string name="status_bar_logo_category_title">Statusbar logo</string>
-    <string name="status_bar_zephyr_logo_title">Zephyr logo</string>
-    <string name="status_bar_zephyr_logo_summary">Enable to show Zephyr logo on the left side of statusbar</string>
-    <string name="status_bar_zephyr_logo_color">Zephyr logo color</string>
-    <string name="status_bar_zephyr_logo_position">Logo location</string>
-    <string name="status_bar_zephyr_logo_position_summary">Choose which side to display the logo on, left or right</string>
-    <string name="status_bar_logo_position_right">Right</string>
-    <string name="status_bar_logo_position_left">Left</string>
 </resources>
 
