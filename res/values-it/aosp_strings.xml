@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom Settings -->   
+    <!-- Dashboard -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="substratum_title">Substratum</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Info telefono </string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individuare il sensore di impronte digitali sulla <xliff:g id="sensor_location">%1$s</xliff:g> del telefono.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">indietro</string>
+    <string name="security_settings_fingerprint_sensor_location_front">davanti</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
+</resources>
