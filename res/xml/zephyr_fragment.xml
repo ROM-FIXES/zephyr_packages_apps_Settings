@@ -15,6 +15,16 @@
 	    android:summary="@string/about_zephyr_summary"
             android:fragment="com.android.settings.zephyr.AboutZephyr" />
 
+	<!-- Zephyr OTA -->
+	 <PreferenceScreen
+               android:key="zephyrota"
+               android:title="@string/zephyrota_title" >
+               <intent
+                       android:action="android.intent.action.MAIN"
+                       android:targetPackage="com.zephyr.zephyrota"
+                       android:targetClass="com.zephyr.zephyrota.MainActivity" />
+        </PreferenceScreen>
+
 	<!-- Changelog -->
         <PreferenceScreen
             android:key="changelog"

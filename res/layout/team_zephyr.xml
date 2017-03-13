@@ -26,7 +26,7 @@
         <com.android.settings.widgets.DeveloperPreference
             android:title="StarkDroid"
             zephyr:nameDev="Trishiraj"
-            zephyr:gplusHandle="StarkDroid"
+            zephyr:gplusHandle="starkdroid"
             zephyr:githubLink="@string/github_StarkDroid"
             zephyr:emailDev="gamerprince.exp@gmail.com"
 	    

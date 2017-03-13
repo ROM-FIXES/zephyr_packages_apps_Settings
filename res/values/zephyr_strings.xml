@@ -804,5 +804,8 @@
     <string name="task_manager_kill_button_1">Circular</string>
     <string name="task_manager_kill_button_2">Text</string>
     <string name="task_manager_kill_button_3">Classic</string>
+
+    <!-- ZephyrOTA -->
+    <string name="zephyrota_title">Zephyr OTA</string>
 </resources>
 
