@@ -205,6 +205,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
         updateNotificationPreference();
         updateEffectsSuppressor();
         updateVolumeLinkNotification();
+        updateVibrateWhenRinging();
         for (VolumeSeekBarPreference volumePref : mVolumePrefs) {
             volumePref.onActivityResume();
         }

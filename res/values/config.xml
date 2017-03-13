@@ -124,4 +124,6 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
+
+    <bool name="usb_tethering_show_alert_for_turn_off_wifi">false</bool>
 </resources>
